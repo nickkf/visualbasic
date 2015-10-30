@@ -7,10 +7,11 @@
         n1 = CInt(TextBox1.Text())
         n2 = CInt(TextBox2.Text())
 
+        'mod es una operacion diferente como * / + - e indica si el resto es 0'
 
-        If n1 > n2 Then
+        If n1 Mod n2 = 0 Then
             resultado = " es divisible "
-        ElseIf n1 < n2 Then
+        Else
             resultado = " no es divisible "
 
         End If

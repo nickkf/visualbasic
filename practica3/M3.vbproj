@@ -85,6 +85,12 @@
     <Compile Include="conteo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="descubre el numero.Designer.vb">
+      <DependentUpon>descubre el numero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="descubre el numero.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,10 +106,70 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="numeros pares do.Designer.vb">
+      <DependentUpon>numeros pares do.vb</DependentUpon>
+    </Compile>
+    <Compile Include="numeros pares do.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="numeros pares while.Designer.vb">
+      <DependentUpon>numeros pares while.vb</DependentUpon>
+    </Compile>
+    <Compile Include="numeros pares while.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="numeros_pares.Designer.vb">
+      <DependentUpon>numeros_pares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="numeros_pares.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="pregunta 2.Designer.vb">
       <DependentUpon>pregunta 2.vb</DependentUpon>
     </Compile>
     <Compile Include="pregunta 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 3.Designer.vb">
+      <DependentUpon>pregunta 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 4.Designer.vb">
+      <DependentUpon>pregunta 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 5.Designer.vb">
+      <DependentUpon>pregunta 5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 6.Designer.vb">
+      <DependentUpon>pregunta 6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 7.Designer.vb">
+      <DependentUpon>pregunta 7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 8.Designer.vb">
+      <DependentUpon>pregunta 8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pregunta 9.Designer.vb">
+      <DependentUpon>pregunta 9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta 9.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -114,14 +180,47 @@
     <EmbeddedResource Include="conteo.resx">
       <DependentUpon>conteo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="descubre el numero.resx">
+      <DependentUpon>descubre el numero.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="numeros pares do.resx">
+      <DependentUpon>numeros pares do.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="numeros pares while.resx">
+      <DependentUpon>numeros pares while.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="numeros_pares.resx">
+      <DependentUpon>numeros_pares.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pregunta 2.resx">
       <DependentUpon>pregunta 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 3.resx">
+      <DependentUpon>pregunta 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 4.resx">
+      <DependentUpon>pregunta 4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 5.resx">
+      <DependentUpon>pregunta 5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 6.resx">
+      <DependentUpon>pregunta 6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 7.resx">
+      <DependentUpon>pregunta 7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 8.resx">
+      <DependentUpon>pregunta 8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pregunta 9.resx">
+      <DependentUpon>pregunta 9.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
